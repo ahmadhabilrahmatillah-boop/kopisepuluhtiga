@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Sepuluh Tiga</title>
+    <style>
+        /* Mengatur dasar halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfaf5; /* Krem sangat muda */
+            color: #333;
+        }
+
+        /* Header / Navigasi */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #2c1810; /* Cokelat Gelap */
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        /* Container Produk */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        /* Kartu Produk */
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            margin: 10px 0;
+            color: #2c1810;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #8d6e63;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        /* Tombol Beli */
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #2c1810;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5d4037;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ESENSI KOPI KHAS TARAJU</h1>
+        <p>Kesederhanaan dalam setiap tegukan.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://www.google.com/search?q=gambar+kopi+americano&oq=gambar+kopi+americano&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABDIHCAoQABiABDIHCAsQABiABDIHCAwQABiABDIHCA0QABiABDIHCA4QABiABNIBCDM4OTJqMGo3qAIUsAIB8QWavuoBgdB1dA&client=tablet-android-transsion&sourceid=chrome-mobile&ie=UTF-8#sv=CAMSXhoyKhBlLW0yNFhXY2FOTDhSa2ZNMg5tMjRYV2NhTkw4UmtmTToOZ3ZDcHg3UVlpSlVXdU0gBCokCg5QVEQxemF1R2gzWGxETRIQZS1tMjRYV2NhTkw4UmtmTRgAMAEYByC13ezxDDABSgoIARACGAIgAigC">
+            <div class="card-content">
+                <h3>Americano</h3>
+                <p>Espresso murni dengan air panas, memberikan rasa yang kuat dan bersih.</p>
+                <div class="price">Rp 5.000</div>
+                <a href="https://wa.me/6285846236190" class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=500&q=80" alt="Kopi Susu">
+            <div class="card-content">
+                <h3>Kopi Susu</h3>
+                <p>Perpaduan espresso pilihan dengan susu lembut dan sedikit gula aren.</p>
+                <div class="price">Rp 5.000</div>
+                <a href="https://wa.me/6285846236190" class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Esensi Kopi - Tugas Praktek Kelas
+    </footer>
+
+</body>
+</html>
